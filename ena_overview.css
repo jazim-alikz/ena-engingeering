@@ -85,6 +85,7 @@ header button i{
     gap: 24px;
     margin-inline:100px;
     margin-top: 112px;
+    padding-bottom: 112px;
 }
 .content1{
     width: 520px;
@@ -97,15 +98,15 @@ header button i{
     font-size: 32px;
     line-height: 40px;
     text-align: center;
+    padding-bottom: 30px;
 }
-.para-section .content1 .para{
+.para-section .content1 .para {
     width: 550px;
     height: 120px;    
     font-weight: 300;
     font-size: 20px;
-
+    margin-top: -40px;
     text-align: center;
-    
 }
 .content2{
     width: 520px;
@@ -122,7 +123,9 @@ header button i{
     height: 120px;    
     font-weight: 300;
     font-size: 20px;
-
     text-align: center;
-    
+}
+.section2 img{
+    width: 1340px;
+    height: 745px;
 }
