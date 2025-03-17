@@ -6,7 +6,7 @@ body{
 }
 .Hero-Section{
     background-image: url(./img/hero_back_img.png);
-    width: 1350px;
+
     height: 545px;
     border-bottom:1px white;
 }
@@ -59,4 +59,70 @@ header button i{
     margin-top: 152px;
     color: white;
 
+}
+.section2 .hr{
+    margin-inline: 645px;
+    margin-bottom: 32px;
+    width: 150px;
+    height: 4px;
+    background-color: #E03740;
+}
+.section2{
+    padding-top: 112px;
+}
+.section2 .para p{
+    width: 745px;
+    height: 120px;
+    margin-inline: 379px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+}
+.para-section{
+    display: flex;
+    gap: 24px;
+    margin-inline:100px;
+    margin-top: 112px;
+}
+.content1{
+    width: 520px;
+    height: 280px;
+    gap: 24px;
+    
+}
+.para-section .content1 .heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+.para-section .content1 .para{
+    width: 550px;
+    height: 120px;    
+    font-weight: 300;
+    font-size: 20px;
+
+    text-align: center;
+    
+}
+.content2{
+    width: 520px;
+    margin-left: 102px;
+}
+.para-section .content2 .heading{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+}
+.para-section .content2 .para{
+    width: 550px;
+    height: 120px;    
+    font-weight: 300;
+    font-size: 20px;
+
+    text-align: center;
+    
 }
