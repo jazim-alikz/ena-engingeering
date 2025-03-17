@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.Hero-Section{
+    background-image: url(./img/hero_back_img.png);
+    width: 1350px;
+    height: 545px;
+    border-bottom:1px white;
+}
+header{
+    list-style-type: none;
+    display: flex;
+    margin-inline: 144px;
+    width: 1152px;
+    height: 97px;
+    /* border: 1px white; */
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+}
+header nav{
+    display: flex;
+}
+header nav li{
+    margin-right: 56px;
+    color: white;
+    padding-block:41.5px;
+}
+header img{
+    margin-left: 383px;
+    margin-top: 41.5px;
+}
+header button{
+    width: 238px;
+    height: 44px;
+    padding-block: 12px;
+    padding-inline: 24px;
+    border-width: 0.5px ;
+    border-color:white ;
+    color: white;
+    background:none;
+    margin-left: 210px;
+    margin-top: 41.5px;
+}
+header button i{
+    margin-left: 12px;
+}
+.Hero-Section hr{
+    width:1152px;
+}
+.Hero-Section p{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 48px;
+    margin-left: 600px;
+    margin-top: 152px;
+    color: white;
+
+}
