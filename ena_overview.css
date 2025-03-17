@@ -44,6 +44,7 @@ header button{
     background:none;
     margin-left: 210px;
     margin-top: 41.5px;
+    cursor: pointer;
 }
 header button i{
     margin-left: 12px;
@@ -91,7 +92,6 @@ header button i{
     width: 520px;
     height: 280px;
     gap: 24px;
-    
 }
 .para-section .content1 .heading{
     font-weight: 700;
@@ -128,4 +128,27 @@ header button i{
 .section2 img{
     width: 1340px;
     height: 745px;
+}
+.img-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.backimg{
+    background-image: url(/img/Rectangle\ 3\(1\).png);
+    width: 1340px;
+    height: 406px;
+    top: 97px;
+}
+.backimg p{
+    font-weight: 700;
+    font-size: 112px;
+    line-height: 100%;
+    letter-spacing: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 128px;
+    margin-left: 153px;
 }
