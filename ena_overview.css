@@ -152,3 +152,33 @@ header button i{
     padding-top: 128px;
     margin-left: 153px;
 }
+.section3{
+    margin-top: 133px;
+    margin-left: 144px;
+    display: flex;
+}
+.section3 .content{
+    margin-top: 65px;
+}
+h1 {
+    color:black;
+}
+.section3 .para1{
+    width: 399px;
+    margin-top: 20px;
+}
+.section3 .para2{
+    width: 399px;
+    margin-top: 20px;
+}
+.section3 .para3{
+    width: 399px;
+    margin-top: 20px;
+}
+.section3 .para4{
+    width:420px;
+    margin-top: 20px;
+}
+.section3 .imgs{
+    margin-left: 112px;
+}
