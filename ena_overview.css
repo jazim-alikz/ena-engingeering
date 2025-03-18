@@ -38,8 +38,7 @@ header button{
     height: 44px;
     padding-block: 12px;
     padding-inline: 24px;
-    border-width: 0.5px ;
-    border-color:white ;
+    border: 0.5px solid white;
     color: white;
     background:none;
     margin-left: 210px;
