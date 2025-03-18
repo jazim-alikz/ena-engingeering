@@ -3,10 +3,11 @@
 
 body{
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 .Hero-Section{
     background-image: url(./img/hero_back_img.png);
-
+  
     height: 545px;
     border-bottom:1px white;
 }
@@ -52,11 +53,12 @@ header button i{
     width:1152px;
 }
 .Hero-Section p{
+    padding-block: 63px;
+    padding-inline: 517px;
     font-weight: 600;
     font-size: 48px;
     line-height: 48px;
-    margin-left: 600px;
-    margin-top: 152px;
+  
     color: white;
 
 }
