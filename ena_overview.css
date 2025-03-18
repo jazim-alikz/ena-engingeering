@@ -251,3 +251,11 @@ h1 {
 .section6 .content2{
     text-align: center;
 }
+.section7 div{
+    padding-top: 112px;
+    margin-left: 144px;
+    padding-bottom: 88px;
+}
+.section7 div img{
+    margin-right: 40px;
+}
