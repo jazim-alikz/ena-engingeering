@@ -30,7 +30,7 @@ header nav li{
     padding-block:41.5px;
 }
 header img{
-    margin-left: 383px;
+    margin-left: 343px;
     margin-top: 41.5px;
 }
 header button{
@@ -258,4 +258,17 @@ h1 {
 }
 .section7 div img{
     margin-right: 40px;
+}
+.footer{
+    width: 1339px;
+    height: 214px;
+    background-color: black;
+}
+.footer .container1{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+.footer .container1 img{
+    margin-right: 56px;
 }
