@@ -1,49 +1,81 @@
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-
 header {
-    list-style-type: none;
-    display: flex;
-    width: 100%;
-    height: 97px;
-    /* border: 1px white; */
-    background-color: black;
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-  header a {
-    text-decoration: none;
-    color: white;
-
-  }
-  header nav {
-    display: flex;
-    margin-left: 144px;
-  }
-  header nav li {
-    margin-right: 56px;
-    color: white;
-    padding-block: 41.5px;
-  }
-  header img {
-    margin-left: 343px;
-    margin-top: 24.5px;
-  }
-  header button {
-    width: 238px;
-    height: 44px;
-    padding-block: 12px;
-    padding-inline: 24px;
-    border: 0.5px solid white;
-    color: white;
-    background: none;
-    margin-left: 210px;
-    margin-top: 30.5px;
-    cursor: pointer;
-  }
-  header button i {
-    margin-left: 12px;
-  }
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  height: 97px;
+  /* border: 1px white; */
+  background-color: black;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header nav {
+  display: flex;
+  margin-left: 144px;
+}
+header nav li {
+  margin-right: 56px;
+  color: white;
+  padding-block: 41.5px;
+}
+header img {
+  margin-left: 343px;
+  margin-top: 24.5px;
+}
+header button {
+  width: 238px;
+  height: 44px;
+  padding-block: 12px;
+  padding-inline: 24px;
+  border: 0.5px solid white;
+  color: white;
+  background: none;
+  margin-left: 210px;
+  margin-top: 30.5px;
+  cursor: pointer;
+}
+header button i {
+  margin-left: 12px;
+}
+.content {
+  margin: 112px;
+  display: flex;
+  gap: 72px;
+}
+.content p {
+  width: 353px;
+  height: 144px;
+}
+.form{
+    margin-top: 100px;
+}
+.form i {
+  color: #E03740;
+}
+.form a {
+  color: #E03740;
+}
+.form input {
+  border: none;
+  border-bottom: 1px solid #929292;
+  margin-top: 44px;
+}
+.form button {
+  margin-top: 32px;
+  width: 132px;
+  height: 44px;
+  padding-block: 12px;
+  padding-inline: 24px;
+  border: 0.5px solid #E03740;
+  background: none;
+  cursor: pointer;
+  color: #E03740;
+}
