@@ -79,3 +79,47 @@ header button i {
   cursor: pointer;
   color: #E03740;
 }
+.footer {
+    margin-top: -112px;
+    width: 100%;
+    height: 214px;
+    background-color: black;
+    display: flex;
+  }
+  .footer .container {
+    display: flex;
+  }
+  .footer .main-div {
+    display: flex;
+    margin-left: 144px;
+    margin-top: 40.5px;
+  }
+  .footer img {
+    margin-top: 65.5px;
+  }
+  .footer-color {
+    margin-top: 70px;
+    margin-left: 32px;
+    color: #e03740;
+  }
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+  }
+  .footer a:hover {
+    color: #e03740;
+  }
+  .footer .container2 {
+    margin-left: 377px;
+  }
+  .footer .container3 {
+    margin-left: 56px;
+  }
+  .footer .container3 hr {
+    width: 186px;
+    color: white;
+    margin-left: 36px;
+    margin-top: -1px;
+  }
+  
