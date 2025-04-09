@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+.Hero-Section {
+  background-image: url(./img/ena-market-backimg.png);
+  width: 100%;
+  height: 800px;
+
+  border-bottom: 1px white;
+}
+header {
+  list-style-type: none;
+  display: flex;
+  margin-inline: 144px;
+  width: 1152px;
+  height: 97px;
+  /* border: 1px white; */
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header nav {
+  display: flex;
+}
+header nav li {
+  margin-right: 56px;
+  color: white;
+  padding-block: 41.5px;
+}
+header img {
+  margin-left: 343px;
+  margin-top: 41.5px;
+}
+header button {
+  width: 238px;
+  height: 44px;
+  padding-block: 12px;
+  padding-inline: 24px;
+  border: 0.5px solid white;
+  color: white;
+  background: none;
+  margin-left: 210px;
+  margin-top: 41.5px;
+  cursor: pointer;
+}
+header button i {
+  margin-left: 12px;
+}
+.Hero-Section hr {
+  width: 1152px;
+}
+.Hero-Section p {
+  padding-block: 63px;
+  margin-top: 201px;
+  margin-inline: 459px;
+  width: 517px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: white;
+}
+.content {
+  text-align: center;
+  padding-block: 112px;
+  background-color: #F5F5F5;
+}
+h1{
+    margin-left: 155px;
+}
+.text {
+  display: flex;
+  margin-left: 300px;
+}
+.value {
+  color: gray;
+  font-weight: 300;
+  font-size: 14px;
+  list-style-type: none;
+  
+}
+.text2 {
+  padding-bottom: 10px;
+}
+.text div {
+  margin-right: 30px;
+}
+.text3{
+    margin-top: -8px;
+}
+.text div p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  text-align: center;
+}
+.para{
+    margin-top: 0;
+}
+.imgs{
+    padding-block: 112px;
+}
+.imgs h1{
+    text-align: center;
+    padding-bottom: 48px;
+}
+.imgs div{
+    width: 227px;
+    height: 248px;
+}
+.imgs div p{
+    color: white;
+    width: 168px;
+    margin-top: 186px;
+    margin-left: 16px;
+}
+.market{
+ display: grid;
+ grid-template-columns: 227px 227px 227px 227px 227px;   
+ gap: 5px;
+ margin-inline:100px;
+ padding-bottom: 112px;
+}
+.img1{
+    background-image: url(/img/image\ \(11\).png);
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(/img/image\ \(12\).png);
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(/img/image\ \(13\).png);
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url(/img/image\ \(14\).png);
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url(/img/image\ \(15\).png);
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(/img/image\ \(16\).png);
+    background-repeat: no-repeat;
+}
+.img7{
+    background-image: url(/img/image\ \(17\).png);
+    background-repeat: no-repeat;
+}
+.img8{
+    background-image: url(/img/image\ \(18\).png);
+    background-repeat: no-repeat;
+}
+.img9{
+    background-image: url(/img/image\ \(19\).png);
+    background-repeat: no-repeat;
+}
+.img10{
+    background-image: url(/img/image\ \(20\).png);
+    background-repeat: no-repeat;
+}
+.img11{
+    background-image: url(/img/image\ \(21\).png);
+    background-repeat: no-repeat;
+}
+.img12{
+    background-image: url(/img/image\ \(22\).png);
+    background-repeat: no-repeat;
+}
+.img13{
+    background-image: url(/img/image\ \(23\).png);
+    background-repeat: no-repeat;
+}
+.img14{
+    background-image: url(/img/image\ \(24\).png);
+    background-repeat: no-repeat;
+}
+.img15{
+    background-image: url(/img/image\ \(25\).png);
+    background-repeat: no-repeat;
+}
+.footer {
+    margin-top: 400px;
+    width: 100%;
+    height: 214px;
+    background-color: black;
+    display: flex;
+  }
+  .footer .container {
+    display: flex;
+  }
+  .footer .main-div {
+    display: flex;
+    margin-left: 144px;
+    margin-top: 40.5px;
+  }
+  .footer img {
+    margin-top: 65.5px;
+  }
+  .footer-color {
+    margin-top: 70px;
+    margin-left: 32px;
+    color: #e03740;
+  }
+  .footer .link {
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+  }
+  .footer a:hover {
+    color: #e03740;
+  }
+  .footer .container2 {
+    margin-left: 377px;
+  }
+  .footer .container3 {
+    margin-left: 56px;
+  }
+  .footer .container3 a {
+    color:white;
+    margin-left: 30px;
+  }
+  
