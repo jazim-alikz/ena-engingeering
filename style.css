@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -68,9 +70,6 @@ h1 {
 .footer {
   background-color: black;
 }
-.link {
-  margin-right: 40px;
-}
 .footer-color {
   color: #e03740;
 }
@@ -84,8 +83,6 @@ body a:hover {
 /* Desktop */
 @media (min-width: 1201px) {
   /* Styles for desktops and large screens */
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-
   .Hero-Section {
     height: 545px;
   }
@@ -298,6 +295,7 @@ body a:hover {
     width: 100%;
     height: 214px;
     display: flex;
+    text-align: left;
   }
   .footer .container {
     display: flex;
@@ -314,6 +312,10 @@ body a:hover {
   .footer-color {
     margin-top: 70px;
   }
+  .footer a {
+    margin: 0;
+    margin-right: 12px;
+  }
   .footer .container2 {
     margin-left: 377px;
   }
@@ -323,8 +325,6 @@ body a:hover {
 }
 
 @media screen and (max-width: 430px) {
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
-
   .Hero-Section {
     width: 100%;
     height: 545px;
@@ -373,7 +373,7 @@ body a:hover {
     padding-top: 112px;
   }
   .section2 .para p {
-    width:342px;
+    width: 342px;
     font-size: 20px;
     margin-inline: 30px;
   }
@@ -384,7 +384,7 @@ body a:hover {
     width: 100%;
     height: 280px;
     padding-bottom: 30px;
-    }
+  }
   .para-section .content1 h1 {
     padding-block: 30px;
   }
@@ -394,7 +394,6 @@ body a:hover {
     height: 120px;
     font-weight: 300;
     font-size: 20px;
-    
   }
   .content2 {
     width: 100%;
@@ -484,7 +483,6 @@ body a:hover {
   }
   .section6 {
     margin-inline: 16px;
-    
   }
   .section6 h1 {
     margin-bottom: 30px;
@@ -506,19 +504,12 @@ body a:hover {
   }
   .footer {
     width: 100%;
-    padding-bottom: 30px;
     text-align: center;
-  }
-  .footer .main-div {
-    margin-top: 40.5px;
-  }
-  .footer img {
-    margin-top: 65.5px;
-    margin-left: 32px;
+    padding-block: 30px;
   }
   .footer-color {
-    margin-block: 30px;
-    margin-left: 32px;
+    font-size: 25px;
+    margin-left: 20px;
   }
   .three-img {
     margin-top: 100px;
