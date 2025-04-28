@@ -40,17 +40,6 @@ header button i {
 .Hero-Section hr {
   width: 100%;
 }
-.Hero-Section p {
-  padding-block: 63px;
-  margin-top: 201px;
-  margin-inline: 459px;
-  width: 517px;
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 48px;
-  text-align: center;
-  color: white;
-}
 .content {
   background-color: #F5F5F5;
 }
@@ -229,6 +218,17 @@ header button i {
       text-align: center;
       padding-block: 112px;
     }
+    .Hero-Section h1 {
+      padding-block: 63px;
+      margin-top: 201px;
+      margin-inline: 459px;
+      width: 517px;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+      color: white;
+    }
     h1{
         margin-left: 155px;
     }
@@ -328,22 +328,24 @@ header button i {
     .Hero-Section hr {
       width: 100%;
     }
-    .Hero-Section p {
-      padding-block: 63px;
-      width: 517px;
+    .Hero-Section h1 {
+      padding-block: 154px;
+      width: 334px;
       font-weight: 600;
       font-size: 48px;
       line-height: 48px;
       text-align: center;
+      color: white;
+      margin-left: 63px;
     }
     .content {
       text-align: center;
       padding-block: 50px;
     }
-    h1{
+    .content h1{
        text-align: center;
        width: 250px;
-       margin-left: 70px;
+       margin-left: 100px;
     }
     .text {
       text-align: center;
