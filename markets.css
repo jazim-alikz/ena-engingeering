@@ -13,29 +13,14 @@ body {
 }
 header {
   list-style-type: none;
-  display: flex;
-  margin-inline: 144px;
-  width: 1152px;
-  height: 97px;
   /* border: 1px white; */
-  padding-top: 16px;
-  padding-bottom: 16px;
 }
 header a {
   text-decoration: none;
   color: white;
 }
-header nav {
-  display: flex;
-}
 header nav li {
-  margin-right: 56px;
   color: white;
-  padding-block: 41.5px;
-}
-header img {
-  margin-left: 343px;
-  margin-top: 41.5px;
 }
 header button {
   width: 238px;
@@ -53,7 +38,7 @@ header button i {
   margin-left: 12px;
 }
 .Hero-Section hr {
-  width: 1152px;
+  width: 100%;
 }
 .Hero-Section p {
   padding-block: 63px;
@@ -67,16 +52,7 @@ header button i {
   color: white;
 }
 .content {
-  text-align: center;
-  padding-block: 112px;
   background-color: #F5F5F5;
-}
-h1{
-    margin-left: 155px;
-}
-.text {
-  display: flex;
-  margin-left: 300px;
 }
 .value {
   color: gray;
@@ -84,12 +60,6 @@ h1{
   font-size: 14px;
   list-style-type: none;
   
-}
-.text2 {
-  padding-bottom: 10px;
-}
-.text div {
-  margin-right: 30px;
 }
 .text3{
     margin-top: -8px;
@@ -100,16 +70,39 @@ h1{
   line-height: 100%;
   text-align: center;
 }
-.para{
-    margin-top: 0;
-}
-.imgs{
-    padding-block: 112px;
-}
 .imgs h1{
     text-align: center;
-    padding-bottom: 48px;
-}
+    padding-bottom: 48px;}
+
+    .market {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 20px;
+      padding-bottom: 112px;
+  }
+  
+  .market > div {
+      border: 2px solid white;
+      width: 228px;
+      height: 240px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+  }
+  
+  .market p {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      margin: 0;
+      font-size: 18px;
+      color: white;
+      background: rgba(0, 0, 0, 0.5); /* optional for better readability */
+      padding: 5px 10px;
+      border-radius: 4px;
+  }
+/* }
 .imgs div{
     width: 227px;
     height: 248px;
@@ -117,16 +110,15 @@ h1{
 .imgs div p{
     color: white;
     width: 168px;
-    margin-top: 186px;
-    margin-left: 16px;
+    padding: 4px 8px;
 }
 .market{
  display: grid;
- grid-template-columns: 227px 227px 227px 227px 227px;   
+ grid-template-columns:5,;   
  gap: 5px;
  margin-inline:100px;
  padding-bottom: 112px;
-}
+} */
 .img1{
     background-image: url(/img/image\ \(11\).png);
     background-repeat: no-repeat;
@@ -188,44 +180,208 @@ h1{
     background-repeat: no-repeat;
 }
 .footer {
-    margin-top: 400px;
-    width: 100%;
-    height: 214px;
     background-color: black;
-    display: flex;
-  }
-  .footer .container {
-    display: flex;
-  }
-  .footer .main-div {
-    display: flex;
-    margin-left: 144px;
-    margin-top: 40.5px;
-  }
-  .footer img {
-    margin-top: 65.5px;
   }
   .footer-color {
-    margin-top: 70px;
-    margin-left: 32px;
     color: #e03740;
   }
   .footer .link {
+    margin-left: 32px;
     color: white;
     text-decoration: none;
-    margin-left: 32px;
   }
   .footer a:hover {
     color: #e03740;
   }
-  .footer .container2 {
-    margin-left: 377px;
-  }
-  .footer .container3 {
-    margin-left: 56px;
-  }
   .footer .container3 a {
     color:white;
-    margin-left: 30px;
   }
   
+  @media screen and (min-width: 1201px){
+    .Hero-Section {
+      width: 100%;
+      height: 800px;  
+      }
+    header {
+      display: flex;
+      margin-inline: 144px;
+      width: 1152px;
+      height: 97px;
+      /* border: 1px white; */
+      padding-top: 16px;
+      padding-bottom: 16px;
+  }
+    header nav {
+      display: flex;
+    }
+    header nav li {
+      margin-right: 56px;
+      padding-block: 41.5px;
+    }
+    header img {
+      margin-left: 343px;
+      margin-top: 41.5px;
+    }
+    .Hero-Section hr {
+      width: 1152px;
+    }
+    .content {
+      text-align: center;
+      padding-block: 112px;
+    }
+    h1{
+        margin-left: 155px;
+    }
+    .text {
+      display: flex;
+      margin-left: 300px;
+    }
+    .text2 {
+      padding-bottom: 10px;
+    }
+    .text div {
+      margin-right: 30px;
+    }
+    .text3{
+        margin-top: -8px;
+    }
+    .text div p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      text-align: center;
+    }
+    .para{
+        margin-top: 0;
+    }
+    .imgs{
+        padding-block: 112px;
+    }
+    .market{
+     display: grid;
+     grid-template-columns: 227px 227px 227px 227px 227px;   
+     gap: 5px;
+     margin-inline:100px;
+     padding-bottom: 112px;}
+    .footer {
+      margin-top: 400px;
+      width: 100%;
+      height: 214px;
+      display: flex;
+    }
+    .footer .container {
+      display: flex;
+    }
+    .footer .main-div {
+      display: flex;
+      margin-left: 144px;
+      margin-top: 40.5px;
+    }
+    .footer img {
+      margin-top: 65.5px;
+    }
+    .footer-color {
+      margin-top: 70px;
+      margin-left: 32px;
+    }
+    .footer .link {
+      margin-left: 32px;
+    }
+  
+    .footer .container2 {
+      margin-left: 377px;
+    }
+    .footer .container3 {
+      margin-left: 56px;
+    }
+    .footer .container3 a {
+      margin-left: 30px;
+    }
+  }
+  @media screen and (max-width: 430px) {
+    .Hero-Section {
+      width: 100%;
+      height: 800px;  
+      }
+    header {
+      display: flex;
+      height: 97px;
+      /* border: 1px white; */
+      padding-block: 16px;
+  }
+    header nav {
+      display: flex;
+      order: 2;
+    }
+    button{
+      display: none;
+    }
+    header nav li {
+      margin-right: 56px;
+      padding-block: 41.5px;
+    }
+    header img {
+      order: 1;
+      margin-left: 16px;
+      margin-right: 115px;
+    }
+    .Hero-Section hr {
+      width: 100%;
+    }
+    .Hero-Section p {
+      padding-block: 63px;
+      width: 517px;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 48px;
+      text-align: center;
+    }
+    .content {
+      text-align: center;
+      padding-block: 50px;
+    }
+    h1{
+       text-align: center;
+       width: 250px;
+       margin-left: 70px;
+    }
+    .text {
+      text-align: center;
+      margin-left: 50px;
+    }
+    .text2 {
+      padding-bottom: 10px;
+    }
+    .text div {
+      margin-right: 30px;
+    }
+    .text3{
+        margin-top: -8px;
+    }
+    .text div p {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      text-align: center;
+    }
+    .para{
+        margin-top: 0;
+    }
+    .market{
+     display: grid;
+     grid-template-columns:1fr;   
+     margin-inline:10px;
+     padding-bottom: 40px;}
+     .market > div{
+      width: 100%;
+      height: 200px;
+     }
+    .footer {
+      width: 100%;
+      text-align: center;
+      padding-block: 30px;
+    }
+    .footer-color {
+      font-size: 25px;
+    }
+  }

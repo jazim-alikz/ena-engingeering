@@ -19,7 +19,7 @@ header button {
   height: 44px;
   padding-block: 12px;
   padding-inline: 24px;
-  border: 0.5px solid white;
+  border: 1px solid white;
   color: white;
   background: none;
   cursor: pointer;
@@ -125,9 +125,9 @@ body a:hover {
     padding-top: 112px;
   }
   .section2 .para p {
-    width: 745px;
+    width: 774px;
     height: 120px;
-    margin-inline: 379px;
+    margin-inline: 310px;
     font-size: 20px;
   }
   .para-section {
@@ -325,7 +325,7 @@ body a:hover {
 }
 
 @media screen and (max-width: 430px) {
-  .Hero-Section {
+   .Hero-Section {
     width: 100%;
     height: 545px;
   }
@@ -336,6 +336,7 @@ body a:hover {
     /* border: 1px white; */
     padding-top: 16px;
     padding-bottom: 16px;
+    margin-left: 32px;
   }
   a {
     margin-left: 32px;
@@ -343,13 +344,13 @@ body a:hover {
   header nav {
     display: flex;
     margin-left: 20px;
-  }
-  header nav li {
-    margin-right: 56px;
-    padding-block: 41.5px;
     order: 2;
   }
+  header nav li {
+    padding-block: 41.5px;
+  }
   header img {
+    margin-right: 90px;
     width: 58px;
     height: 65px;
     margin-top: 20px;
@@ -361,21 +362,19 @@ body a:hover {
   header button i {
     display: none;
   }
-  .Hero-Section hr {
-    margin-inline: 30px;
-  }
   .Hero-Section h1 {
-    margin-inline: 100px;
+    margin-left: 135px;
+    text-align: center;
+    width: 100px;
     margin-top: 133px;
-    width: 200px;
   }
   .section2 {
     padding-top: 112px;
   }
   .section2 .para p {
-    width: 342px;
+    width: 360px;
     font-size: 20px;
-    margin-inline: 30px;
+    margin-inline: 16px;
   }
   .para-section {
     margin-inline: 16px;
@@ -390,8 +389,8 @@ body a:hover {
   }
   .para-section .content1 .para {
     padding-top: 10px;
-    width: 100%;
-    height: 120px;
+    width: 360px;
+    height: 100px;
     font-weight: 300;
     font-size: 20px;
   }
@@ -412,8 +411,9 @@ body a:hover {
     font-size: 20px;
   }
   .section2 img {
-    width: 100%;
-    height: auto;
+    width: 360px;
+    height: 206px;
+    margin-inline: 16px;
   }
   .img-heading {
     font-weight: 700;
@@ -509,8 +509,11 @@ body a:hover {
   }
   .footer-color {
     font-size: 25px;
-    margin-left: 20px;
   }
+  .container1 .link {
+    margin-right: 10px;
+  }
+
   .three-img {
     margin-top: 100px;
   }

@@ -21,16 +21,9 @@ header a {
 }
 header nav {
   display: flex;
-  margin-left: 144px;
 }
 header nav li {
-  margin-right: 56px;
   color: white;
-  padding-block: 41.5px;
-}
-header img {
-  margin-left: 343px;
-  margin-top: 24.5px;
 }
 header button {
   width: 238px;
@@ -47,27 +40,16 @@ header button {
 header button i {
   margin-left: 12px;
 }
-.content {
-  margin: 112px;
-  display: flex;
-  gap: 72px;
-}
-.content p {
-  width: 353px;
-  height: 144px;
-}
-.form{
-    margin-top: 100px;
-}
+
 .form i {
-  color: #E03740;
+  color: #e03740;
 }
 .form a {
-  color: #E03740;
+  color: #e03740;
 }
 .form input {
   border: none;
-  border-bottom: 1px  solid #929292;
+  border-bottom: 1px solid #929292;
   margin-top: 44px;
   width: 100%;
 }
@@ -77,49 +59,138 @@ header button i {
   height: 44px;
   padding-block: 12px;
   padding-inline: 24px;
-  border: 0.5px solid #E03740;
+  border: 1px solid #e03740;
   background: none;
   cursor: pointer;
-  color: #E03740;
+  color: #e03740;
 }
 .footer {
-  margin-top: 400px;
-  width: 100%;
-  height: 214px;
   background-color: black;
-  display: flex;
-}
-.footer .container {
-  display: flex;
-}
-.footer .main-div {
-  display: flex;
-  margin-left: 144px;
-  margin-top: 40.5px;
-}
-.footer img {
-  margin-top: 65.5px;
 }
 .footer-color {
-  margin-top: 70px;
-  margin-left: 32px;
   color: #e03740;
 }
 .footer .link {
   color: white;
   text-decoration: none;
-  margin-left: 32px;
 }
 .footer a:hover {
   color: #e03740;
 }
-.footer .container2 {
-  margin-left: 377px;
-}
-.footer .container3 {
-  margin-left: 56px;
-}
+
 .footer .container3 a {
-  color:white;
-  margin-left: 30px;
+  color: white;
+}
+@media screen and (min-width: 1201px) {
+  header nav {
+    display: flex;
+    margin-left: 144px;
+  }
+  header nav li {
+    margin-right: 56px;
+    padding-block: 41.5px;
+  }
+  header img {
+    margin-left: 343px;
+    margin-top: 24.5px;
+  }
+
+  .content {
+    margin-top: 112px;
+    margin-inline: 112px;
+    display: flex;
+    gap: 72px;
+  }
+  .content p {
+    width: 353px;
+    height: 144px;
+  }
+  .form {
+    margin-top: 100px;
+    order: 2;
+  }
+.content img {
+    margin-top: 100px;
+    order: 1;
+  }
+  .footer {
+    width: 100%;
+    height: 214px;
+    display: flex;
+  }
+  .footer .container {
+    display: flex;
+  }
+  .footer .main-div {
+    display: flex;
+    margin-left: 144px;
+    margin-top: 40.5px;
+  }
+  .footer img {
+    margin-top: 65.5px;
+  }
+  .footer-color {
+    margin-top: 70px;
+    margin-left: 32px;
+  }
+  .footer .link {
+    margin-left: 32px;
+  }
+
+  .footer .container2 {
+    margin-left: 377px;
+  }
+  .footer .container3 {
+    margin-left: 56px;
+  }
+  .footer .container3 a {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 430px) {
+  header nav {
+    display: flex;
+    order: 2;
+  }
+  header nav li {
+    margin-right: 32px;
+    padding-block: 41.5px;
+  }
+  header img {
+    margin-left: 16px;
+    margin-right: 150px;
+    margin-top: 24.5px;
+    order: 1;
+  }
+  header button {
+    display: none;
+  }
+
+  .content {
+    margin-inline: 16px;
+    gap: 72px;
+  }
+  .content p {
+    width: 353px;
+    height: 144px;
+  }
+  .form {
+    margin-block: 40px;
+  }
+  .content img {
+    width: 100%;
+  }
+  .footer {
+    margin-top: -4px;
+    width: 100%;
+    text-align: center;
+    padding-block: 30px;
+  }
+  .footer-color {
+    font-size: 25px;
+  }
+  .container1 .link {
+    margin-right: 10px;
+  }
+
 }
