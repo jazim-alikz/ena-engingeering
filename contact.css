@@ -15,7 +15,7 @@ header {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-header a {
+ a {
   text-decoration: none;
   color: white;
 }
@@ -44,9 +44,7 @@ header button i {
 .form i {
   color: #e03740;
 }
-.form a {
-  color: #e03740;
-}
+
 .form input {
   border: none;
   border-bottom: 1px solid #929292;
@@ -67,20 +65,10 @@ header button i {
 .footer {
   background-color: black;
 }
-.footer-color {
-  color: #e03740;
-}
-.footer .link {
-  color: white;
-  text-decoration: none;
-}
-.footer a:hover {
+.footer p {
   color: #e03740;
 }
 
-.footer .container3 a {
-  color: white;
-}
 @media screen and (min-width: 1201px) {
   header nav {
     display: flex;
@@ -129,11 +117,11 @@ header button i {
   .footer img {
     margin-top: 65.5px;
   }
-  .footer-color {
+  .footer p{
     margin-top: 70px;
     margin-left: 32px;
   }
-  .footer .link {
+  .footer a {
     margin-left: 32px;
   }
 
@@ -186,10 +174,10 @@ header button i {
     text-align: center;
     padding-block: 30px;
   }
-  .footer-color {
+  .footer p{
     font-size: 25px;
   }
-  .container1 .link {
+  .container1 a{
     margin-right: 10px;
   }
 

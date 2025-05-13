@@ -38,20 +38,20 @@ header button i {
   height: 4px;
   background-color: #e03740;
 }
-.section2 .para p {
+.section2 p {
   text-align: center;
 }
 .para-section .content1 h1 {
   text-align: center;
 }
-.para-section .content1 .para {
+.para-section .content1 .text-info {
   text-align: center;
 }
 
 .para-section .content2 h1 {
   text-align: center;
 }
-.para-section .content2 .para {
+.para-section .content2 .text-info {
   text-align: center;
 }
 .img-heading {
@@ -70,7 +70,7 @@ h1 {
 .footer {
   background-color: black;
 }
-.footer-color {
+.footer p {
   color: #e03740;
 }
 body a {
@@ -103,11 +103,11 @@ body a:hover {
     padding-block: 41.5px;
   }
   header img {
-    margin-left: 343px;
+    margin-left: 300px;
     margin-top: 41.5px;
   }
   header button {
-    margin-left: 210px;
+    margin-left: 260px;
     margin-top: 41.5px;
   }
   .Hero-Section hr {
@@ -117,14 +117,14 @@ body a:hover {
     width: 365px;
     padding-block: 63px;
     margin-top: 100px;
-    margin-left: 560px;
+    margin-left: 490px;
     font-weight: 600;
     font-size: 48px;
   }
   .section2 {
     padding-top: 112px;
   }
-  .section2 .para p {
+  .section2  p {
     width: 774px;
     height: 120px;
     margin-inline: 310px;
@@ -148,7 +148,7 @@ body a:hover {
     line-height: 40px;
     padding-bottom: 30px;
   }
-  .para-section .content1 .para {
+  .para-section .content1 .text-info {
     width: 550px;
     height: 120px;
     font-weight: 300;
@@ -162,23 +162,23 @@ body a:hover {
   .para-section .content2 h1 {
     font-size: 32px;
   }
-  .para-section .content2 .para {
+  .para-section .content2 .text-info {
     width: 550px;
     height: 120px;
     font-size: 20px;
   }
   .section2 img {
-    width: 100%;
-    height: auto;
+    width: 1300px;
+    height: 745px;
   }
-  .img-heading {
+  .section2 h2 {
     font-weight: 700;
     font-size: 40px;
+
   }
   .backimg {
     width: 100%;
     height: 406px;
-    margin-top: 97px;
   }
   .backimg h1 {
     font-weight: 700;
@@ -199,20 +199,8 @@ body a:hover {
     text-align: left;
     margin-right: 114px;
   }
-  .section3 .para1 {
+  .section3 p {
     width: 399px;
-    margin-top: 20px;
-  }
-  .section3 .para2 {
-    width: 399px;
-    margin-top: 20px;
-  }
-  .section3 .para3 {
-    width: 399px;
-    margin-top: 20px;
-  }
-  .section3 .para4 {
-    width: 420px;
     margin-top: 20px;
   }
   .section3 .imgs {
@@ -224,25 +212,14 @@ body a:hover {
     margin-top: 100px;
     display: flex;
   }
-  .section4 .para1 {
+  .section4 p {
     width: 410px;
-    margin-top: 20px;
-  }
-  .section4 .para2 {
-    width: 399px;
-    margin-top: 20px;
-  }
-  .section4 .para3 {
-    width: 420px;
-    margin-top: 20px;
-  }
-  .section4 .para4 {
-    width: 420px;
-    margin-top: 20px;
-  }
+    margin-top: 20px;}
+
   .section4 .content {
-    margin-right: 112px;
+    margin-left: 112px;
     text-align: left;
+    order: 2;
   }
   .section5 {
     margin-left: 144px;
@@ -250,20 +227,8 @@ body a:hover {
     display: flex;
     text-align: left;
   }
-  .section5 .para1 {
+  .section5 p {
     width: 410px;
-    margin-top: 30px;
-  }
-  .section5 .para2 {
-    width: 399px;
-    margin-top: 30px;
-  }
-  .section5 .para3 {
-    width: 410px;
-    margin-top: 30px;
-  }
-  .section5 .para4 {
-    width: 420px;
     margin-top: 30px;
   }
   .section5 .content {
@@ -309,7 +274,7 @@ body a:hover {
     margin-top: 65.5px;
     margin-right: 100px;
   }
-  .footer-color {
+  .footer p {
     margin-top: 70px;
   }
   .footer a {
@@ -325,7 +290,7 @@ body a:hover {
 }
 
 @media screen and (max-width: 430px) {
-   .Hero-Section {
+  .Hero-Section {
     width: 100%;
     height: 545px;
   }
@@ -363,7 +328,7 @@ body a:hover {
     display: none;
   }
   .Hero-Section h1 {
-    margin-left: 135px;
+    margin-left: 150px;
     text-align: center;
     width: 100px;
     margin-top: 133px;
@@ -371,9 +336,9 @@ body a:hover {
   .section2 {
     padding-top: 112px;
   }
-  .section2 .para p {
-    width: 360px;
-    font-size: 20px;
+  .section2  p {
+
+    font-size: 16px;
     margin-inline: 16px;
   }
   .para-section {
@@ -441,17 +406,9 @@ body a:hover {
   h1 {
     color: black;
   }
-  .section3 .para1,
-  .section3 .para2,
-  .section3 .para3,
-  .section4 .para1,
-  .section4 .para2,
-  .section4.para3,
-  .section4 .para4,
-  .section5 .para1,
-  .section5.para2,
-  .section5.para3,
-  .section5 .para4 {
+  .section3 p,
+  .section4 p,
+  .section5 p{
     width: 100%;
     margin-top: 20px;
   }
@@ -507,10 +464,10 @@ body a:hover {
     text-align: center;
     padding-block: 30px;
   }
-  .footer-color {
+  .footer p{
     font-size: 25px;
   }
-  .container1 .link {
+  .container1 a {
     margin-right: 10px;
   }
 

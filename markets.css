@@ -15,7 +15,7 @@ header {
   list-style-type: none;
   /* border: 1px white; */
 }
-header a {
+ a {
   text-decoration: none;
   color: white;
 }
@@ -43,7 +43,7 @@ header button i {
 .content {
   background-color: #F5F5F5;
 }
-.value {
+.content li {
   color: gray;
   font-weight: 300;
   font-size: 14px;
@@ -87,27 +87,9 @@ header button i {
       margin: 0;
       font-size: 18px;
       color: white;
-      background: rgba(0, 0, 0, 0.5); /* optional for better readability */
       padding: 5px 10px;
       border-radius: 4px;
   }
-/* }
-.imgs div{
-    width: 227px;
-    height: 248px;
-}
-.imgs div p{
-    color: white;
-    width: 168px;
-    padding: 4px 8px;
-}
-.market{
- display: grid;
- grid-template-columns:5,;   
- gap: 5px;
- margin-inline:100px;
- padding-bottom: 112px;
-} */
 .img1{
     background-image: url(/img/image\ \(11\).png);
     background-repeat: no-repeat;
@@ -171,13 +153,8 @@ header button i {
 .footer {
     background-color: black;
   }
-  .footer-color {
+  .footer p {
     color: #e03740;
-  }
-  .footer .link {
-    margin-left: 32px;
-    color: white;
-    text-decoration: none;
   }
   .footer a:hover {
     color: #e03740;
@@ -200,10 +177,10 @@ header button i {
       padding-top: 16px;
       padding-bottom: 16px;
   }
-    header nav {
+     nav {
       display: flex;
     }
-    header nav li {
+     nav li {
       margin-right: 56px;
       padding-block: 41.5px;
     }
@@ -236,13 +213,13 @@ header button i {
       display: flex;
       margin-left: 300px;
     }
-    .text2 {
+    .text-content {
       padding-bottom: 10px;
     }
     .text div {
       margin-right: 30px;
     }
-    .text3{
+    .info-text{
         margin-top: -8px;
     }
     .text div p {
@@ -251,7 +228,7 @@ header button i {
       line-height: 100%;
       text-align: center;
     }
-    .para{
+    .info-text p{
         margin-top: 0;
     }
     .imgs{
@@ -264,7 +241,6 @@ header button i {
      margin-inline:100px;
      padding-bottom: 112px;}
     .footer {
-      margin-top: 400px;
       width: 100%;
       height: 214px;
       display: flex;
@@ -280,11 +256,11 @@ header button i {
     .footer img {
       margin-top: 65.5px;
     }
-    .footer-color {
+    .footer p {
       margin-top: 70px;
       margin-left: 32px;
     }
-    .footer .link {
+    .footer a {
       margin-left: 32px;
     }
   
@@ -351,13 +327,13 @@ header button i {
       text-align: center;
       margin-left: 50px;
     }
-    .text2 {
+    .text-content {
       padding-bottom: 10px;
     }
     .text div {
-      margin-right: 30px;
+      margin-left: 0;
     }
-    .text3{
+    .info-text{
         margin-top: -8px;
     }
     .text div p {
@@ -366,7 +342,7 @@ header button i {
       line-height: 100%;
       text-align: center;
     }
-    .para{
+    .info-text p{
         margin-top: 0;
     }
     .market{
