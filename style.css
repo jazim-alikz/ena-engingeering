@@ -352,7 +352,7 @@ body a:hover {
   .para-section .content1 h1 {
     padding-block: 30px;
   }
-  .para-section .content1 .para {
+  .para-section .content1 .text-info {
     padding-top: 10px;
     width: 360px;
     height: 100px;
@@ -360,16 +360,17 @@ body a:hover {
     font-size: 20px;
   }
   .content2 {
+    margin-top: 0;
     width: 100%;
   }
   .para-section .content2 h1 {
     font-weight: 700;
     font-size: 32px;
+    margin-top: 250px;
     line-height: 40px;
-    margin-top: 300px;
     margin-bottom: 20px;
   }
-  .para-section .content2 .para {
+  .para-section .content2 .text-info {
     width: 100%;
     height: 120px;
     font-weight: 300;
@@ -379,6 +380,7 @@ body a:hover {
     width: 360px;
     height: 206px;
     margin-inline: 16px;
+    margin-top: 20px;
   }
   .img-heading {
     font-weight: 700;
