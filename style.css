@@ -301,20 +301,21 @@ body a:hover {
     /* border: 1px white; */
     padding-top: 16px;
     padding-bottom: 16px;
-    margin-left: 32px;
+
   }
   a {
     margin-left: 32px;
   }
   header nav {
     display: flex;
-    margin-left: 20px;
+    padding-left: 10px;
     order: 2;
   }
   header nav li {
     padding-block: 41.5px;
   }
   header img {
+    margin-left: 16px;
     margin-right: 90px;
     width: 58px;
     height: 65px;
