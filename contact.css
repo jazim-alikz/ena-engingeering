@@ -10,7 +10,6 @@ header {
   display: flex;
   width: 100%;
   height: 97px;
-  /* border: 1px white; */
   background-color: black;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -34,7 +33,7 @@ header button {
   color: white;
   background: none;
   margin-left: 210px;
-  margin-top: 30.5px;
+  margin-top: 30px;
   cursor: pointer;
 }
 header button i {
@@ -76,11 +75,11 @@ header button i {
   }
   header nav li {
     margin-right: 56px;
-    padding-block: 41.5px;
+    padding-block: 41px;
   }
   header img {
     margin-left: 343px;
-    margin-top: 24.5px;
+    margin-top: 24px;
   }
 
   .content {
@@ -112,10 +111,10 @@ header button i {
   .footer .main-div {
     display: flex;
     margin-left: 144px;
-    margin-top: 40.5px;
+    margin-top: 40px;
   }
   .footer img {
-    margin-top: 65.5px;
+    margin-top: 65px;
   }
   .footer p{
     margin-top: 70px;
@@ -142,12 +141,12 @@ header button i {
   }
   header nav li {
     margin-right: 32px;
-    padding-block: 41.5px;
+    padding-block: 41px;
   }
   header img {
     margin-left: 16px;
     margin-right: 150px;
-    margin-top: 24.5px;
+    margin-top: 24px;
     order: 1;
   }
   header button {

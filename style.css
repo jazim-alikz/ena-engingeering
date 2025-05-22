@@ -80,9 +80,7 @@ body a {
 body a:hover {
   color: #e03740;
 }
-/* Desktop */
 @media (min-width: 1201px) {
-  /* Styles for desktops and large screens */
   .Hero-Section {
     height: 545px;
   }
@@ -91,7 +89,6 @@ body a:hover {
     margin-inline: 144px;
     width: 1152px;
     height: 97px;
-    /* border: 1px white; */
     padding-top: 16px;
     padding-bottom: 16px;
   }
@@ -100,15 +97,15 @@ body a:hover {
   }
   header nav li {
     margin-right: 56px;
-    padding-block: 41.5px;
+    padding-block: 41px;
   }
   header img {
     margin-left: 300px;
-    margin-top: 41.5px;
+    margin-top: 41px;
   }
   header button {
     margin-left: 260px;
-    margin-top: 41.5px;
+    margin-top: 41px;
   }
   .Hero-Section hr {
     width: 1152px;
@@ -268,10 +265,10 @@ body a:hover {
   .footer .main-div {
     display: flex;
     margin-left: 144px;
-    margin-top: 40.5px;
+    margin-top: 40px;
   }
   .footer img {
-    margin-top: 65.5px;
+    margin-top: 65px;
     margin-right: 100px;
   }
   .footer p {
@@ -298,7 +295,6 @@ body a:hover {
     display: flex;
     width: 100%;
     height: 97px;
-    /* border: 1px white; */
     padding-top: 16px;
     padding-bottom: 16px;
 
@@ -312,7 +308,7 @@ body a:hover {
     order: 2;
   }
   header nav li {
-    padding-block: 41.5px;
+    padding-block: 41px;
   }
   header img {
     margin-left: 16px;

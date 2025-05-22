@@ -13,7 +13,6 @@ body {
 }
 header {
   list-style-type: none;
-  /* border: 1px white; */
 }
  a {
   text-decoration: none;
@@ -31,7 +30,7 @@ header button {
   color: white;
   background: none;
   margin-left: 210px;
-  margin-top: 41.5px;
+  margin-top: 41px;
   cursor: pointer;
 }
 header button i {
@@ -77,18 +76,16 @@ header button i {
       background-size: cover;
       background-position: center;
       position: relative;
-      overflow: hidden;
   }
   
   .market p {
       position: absolute;
       bottom: 10px;
-      left: 10px;
+      margin-left: 10px;
       margin: 0;
       font-size: 18px;
       color: white;
       padding: 5px 10px;
-      border-radius: 4px;
   }
 .img1{
     background-image: url(/img/image\ \(11\).png);
@@ -173,7 +170,6 @@ header button i {
       margin-inline: 144px;
       width: 1152px;
       height: 97px;
-      /* border: 1px white; */
       padding-top: 16px;
       padding-bottom: 16px;
   }
@@ -182,11 +178,11 @@ header button i {
     }
      nav li {
       margin-right: 56px;
-      padding-block: 41.5px;
+      padding-block: 41px;
     }
     header img {
       margin-left: 343px;
-      margin-top: 41.5px;
+      margin-top: 41px;
     }
     .Hero-Section hr {
       width: 1152px;
@@ -251,10 +247,10 @@ header button i {
     .footer .main-div {
       display: flex;
       margin-left: 144px;
-      margin-top: 40.5px;
+      margin-top: 40px;
     }
     .footer img {
-      margin-top: 65.5px;
+      margin-top: 65px;
     }
     .footer p {
       margin-top: 70px;
@@ -282,7 +278,6 @@ header button i {
     header {
       display: flex;
       height: 97px;
-      /* border: 1px white; */
       padding-block: 16px;
   }
     header nav {
@@ -294,7 +289,7 @@ header button i {
     }
     header nav li {
       margin-right: 56px;
-      padding-block: 41.5px;
+      padding-block: 41px;
     }
     header img {
       order: 1;
